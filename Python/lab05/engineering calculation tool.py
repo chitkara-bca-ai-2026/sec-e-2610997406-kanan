@@ -1,0 +1,23 @@
+import math
+
+value = float(input("Enter a numerical value:"))
+exponent = float(input("Enter an exponent:"))
+decimal_value = float(input("Enter a decimal measurement:"))
+
+power = math.pow(value, exponent)
+square_root = math.sqrt(value)
+ceil_value = math.ceil(decimal_value)
+floor_value = math.floor(decimal_value)
+
+print("============================")
+print("ENGINEERING CALCULATION TOOL")
+print("============================")
+
+print("--- Results ---")
+print(f"Value: {value}")
+print(f"Exponent: {exponent}")
+print(f"Power (pow): {power}")
+print(f"Square Root (sqrt): {square_root:.4f}")
+print(f"Decimal Value: {decimal_value}")
+print(f"Ceil Value: {ceil_value}")
+print(f"Floor Value: {floor_value}")
